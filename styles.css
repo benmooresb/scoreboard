@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.wrapper {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: #19244D;
+    padding: 2rem;
+    border: 5px solid white;
+    border-radius: 5px;
+    gap: 5rem;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #9aabd8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 2rem;
+    color: red;
+    font-size: 4rem;
+}
+
+.home-team, .away-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-buttons {
+    display: flex;
+    gap: .75rem;
+}
+
+.new-btn {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+}

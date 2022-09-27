@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="home-team">
+                <h3 class="home-team-name">HOME</h3>
+                <div id="home-score" class="score">0</div>
+                <div class="score-buttons">
+                    <button onclick="add1Home()">+1</button>
+                    <button onclick="add2Home()">+2</button>
+                    <button onclick="add3Home()">+3</button>
+                </div>
+                <button onclick="newGame()" class="new-btn">New Game</button>
+            </div>
+            <div class="away-team">
+                <h3 class="away-team-name">AWAY</h3>
+                <div id="away-score" class="score">0</div>
+                <div class="score-buttons">
+                    <button onclick="add1Away()">+1</button>
+                    <button onclick="add2Away()">+2</button>
+                    <button onclick="add3Away()">+3</button>
+                </div>
+                <button onclick="newGame()" class="new-btn">New Game</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
